@@ -157,6 +157,6 @@ let totalMedida = (++sumar);
 
 console.log(totalMedida);
 
-document.write(totalMedida);
+document.write('<br>', totalMedida);
 
 
