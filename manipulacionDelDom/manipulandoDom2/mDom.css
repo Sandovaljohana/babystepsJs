@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+.headerTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1Header {
+    color: rgb(255, 199, 233);
+    text-shadow: 4px 2px rgba(77, 5, 66, 0.709);
+    padding: 16px;
+    font-family: 'Sofia', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+.pHeader {
+    text-align: right;
+    color: rgb(255, 231, 246);
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.invisible {
+    display: none;
+}
+
+.pHeader2 {
+    text-align: right;
+    color: rgb(255, 231, 246);
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonTitles {
+    color: rgb(255, 231, 246);
+    background-color: rgb(77, 5, 66);
+    border: solid 2px rgb(77, 5, 66);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 10px 20px 30px 20px;
+    font-family: 'Comfortaa', sans-serif;
+    cursor: pointer;
+}
+
+.buttonTitles:hover {
+    transform: scale(1.1);
+    background-color: rgba(113, 34, 100, 0.827);
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(77, 5, 66);
+    border-radius: 12px;
+    margin: 8px;
+    background-color: rgb(77, 5, 66);
+    width: 250px;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.h2Container {
+    color: rgb(255, 231, 246);
+    padding: 8px;
+    margin-bottom: 0;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.538);
+    font-weight: lighter;
+}
+
+.imgCard {
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    border-radius: 12px;
+}
+
+.pContainer {
+    text-align: center;
+    padding: 0px 20px;
+    font-family: 'Comfortaa', sans-serif;
+    color: rgb(255, 231, 246);
+}
+
+.listMain {
+    color: rgb(255, 231, 246);
+    margin-top: 12px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.listNameMain {
+    color: rgb(255, 231, 246);
+    margin-top: 12px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.tableMain {
+    color: rgb(255, 231, 246);
+    margin-top: 12px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.tableStyle {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tableStyle th {
+    border: 1px solid rgba(77, 5, 66, 0.709);
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(236, 236, 236);
+    color: red;
+}
+
+.tableStyle td {
+    border: 1px solid rgba(250, 146, 234, 0.709);
+    padding: 8px;
+}
+
+/* 
+.tableStyle tr:nth-child(odd) {
+    background-color: rgba(77, 5, 66, 0.709);
+} */
+
+.formPage {
+    background-color: rgb(255, 239, 251);
+    color: rgb(77, 5, 66);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.formMain input {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    font-family: 'Comfortaa', sans-serif
+}
+
+footer {
+    background-color: rgba(78, 1, 66, 0.518);
+    color: rgb(255, 231, 246);
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
